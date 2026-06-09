@@ -1,5 +1,22 @@
 <html>
   <head>
+    <title> quarta experiencia AR.js com imagem e marcador .patt</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
+  </head>
+
+  <body style="margin: 0; overflow: hidden;">
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
+      <a-marker type="pattern" url="[nome do arquivo .patt]">
+        <a-image src="11-09.png" position="0 0 0" rotation="-90 0 0" width="1.1" height="1"></a-image>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+<!-- <html>
+  <head>
     <title> terceira experiencia AR.js com imagem e marcador Hiro</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
@@ -21,7 +38,7 @@
       <a-entity camera></a-entity>
     </a-scene>
   </body>
-</html>
+</html> -->
 
 <!-- <html>
   <head>
